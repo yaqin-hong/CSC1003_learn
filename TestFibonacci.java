@@ -13,27 +13,7 @@ public class TestFibonacci {
         for (int i=2;i<n;i++){
             a[i]=a[i-1]+a[i-2];
         }
-        /*
-        for (int i=(n-1);i>=(n-d);i--){
-            System.out.print(a[i] + ", ");
-        }
-         */
-        /*
-        for (int i=0; i<d; i++) {
-            System.out.print(a[n-i-1] + ", ");
-        }
-         */
-        /*for (int i=1; i<=d; i++) {
-            System.out.print(a[n-i] + ", ");
-        }*/
         int i = 0;
-        do{
-            System.out.print(a[n-i-1] + ", ");
-            i++;
-        } while (i<d);
-        System.out.println();
-
-        i = 0;
         while (i<d) {
             System.out.print(a[n-i-1] + ", ");
             i++;
