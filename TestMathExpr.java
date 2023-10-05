@@ -20,7 +20,7 @@ public class TestMathExpr {
         
 
     public static void main(String[] args) throws Exception {
-        int line_number = Integer.parseInt(input.nextLine()); 
+        int line_number = Integer.parseInt(input.nextLine());
         for(int i=0; i<line_number; i++) {
             String s = input.nextLine();
             String t[] = s.split(" ");

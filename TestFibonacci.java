@@ -6,7 +6,6 @@ public class TestFibonacci {
 
     // here is the function you need to implement
 	public static void parse_line(int n, int d) {
-        // int a[]; 
         int[] a = new int[n];
         a[0]=1;
         a[1]=1;
