@@ -11,14 +11,16 @@ public class TestFibonacci {
         a[1]=1;
         for (int i=2;i<n;i++){
             a[i]=a[i-1]+a[i-2];
-        }
+        }        
         int i = 0;
         while (i<d) {
-            System.out.print(a[n-i-1] + ", ");
+            System.out.print(a[n-i-1]);
             i++;
+            if (i<d) {
+                System.out.print(", ");                
+            }
         }
         System.out.println();
-
     }
 
     public static void main(String[] args) throws Exception {
