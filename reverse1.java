@@ -9,6 +9,7 @@ public class reverse1 {
         int[] a = new int[t.length];
         int[] b = new int[t.length];
         input.close();
+        
         int j = 0;
         while (j<t.length) {
             a[j] = Integer.parseInt(t[j]);
